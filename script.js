@@ -29,6 +29,7 @@ let randomColors = () => {
   + color2.value 
   + ")";
 
+  randomizer.style.background = color1.value;
   css.textContent = body.style.background + ";";
 };
 
